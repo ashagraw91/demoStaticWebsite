@@ -23,6 +23,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)/s/staticwebsite/dist'
+    targetPath: '$(Pipeline.Workspace)/s/dist'
     artifact: 'staticwebsite'
     publishLocation: 'pipeline'
